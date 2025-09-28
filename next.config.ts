@@ -1,10 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  basePath: '/myPortfolio',
-  assetPrefix: '/myPortfolio/',
+import type { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
   images: {
-    unoptimized: true,
+    unoptimized: true, // opsional, hanya kalau kamu pakai <Image />
   },
 };
 
