@@ -133,7 +133,7 @@ export default function HomePage() {
             <Link href="https://github.com/HansImmanuel/ToDoListWow.git">
               <div className="overflow-hidden rounded-lg shadow-md mb-6 group cursor-pointer max-w-3xl">
                 <Image
-                  src="/image/todowow.png"
+                  src="/image/todohansyos.png"
                   alt="To-Do WOW Project"
                   width={800}
                   height={400}
